@@ -31,7 +31,7 @@ const Card = ({ item, productId }) => {
             <div>
                 <div className={styles.cardTitle}>{item.name}</div>
                 <div className={styles.price}>
-                    0.00000{item.price}
+                    0.00000{item.price} MATIC
                 </div>
             </div>
         </div>
